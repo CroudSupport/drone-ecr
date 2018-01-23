@@ -2,7 +2,7 @@
 #
 #     docker build --rm=true -t plugins/ecr .
 
-FROM plugins/docker:latest
+FROM croudtech/drone-docker:latest
 
 RUN \
 	mkdir -p /aws && \
